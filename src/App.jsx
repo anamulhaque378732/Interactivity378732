@@ -1,5 +1,5 @@
 import './App.css';
-import QueueingSeriesOfStateUpdates from './Component/QueueingSeriesOfStateUpdates';
+import UpdatingArray from './Component/UpdatingArray';
 
 function App() {
 
@@ -35,7 +35,13 @@ function App() {
         <State2></State2> */}
       {/* 
       <StateAsSnapshot></StateAsSnapshot> */}
-      <QueueingSeriesOfStateUpdates></QueueingSeriesOfStateUpdates>
+      {/* <QueueingSeriesOfStateUpdates></QueueingSeriesOfStateUpdates> */}
+
+
+      {/* <UpdatingObjectInState></UpdatingObjectInState> */}
+      {/* <UpdatingObject></UpdatingObject> */}
+      {/* <UpdatingObject2></UpdatingObject2> */}
+      <UpdatingArray></UpdatingArray>
 
 
 
